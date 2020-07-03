@@ -4,7 +4,7 @@ namespace EngineSimulation
 {
     class ConsoleClass
     {
-        public static void Main(string[] args)
+        public static void Main()
         { 
             String TextForLog;
 
@@ -22,25 +22,21 @@ namespace EngineSimulation
                 Console.WriteLine($" Количество секунд до перегрева = {vsEngine.TimeEmulation()}");
             }
 
-            Console.WriteLine("Вывести Подробный отчет Y/N");
+            Console.WriteLine("Для вывода подробного отчета введите Y");
             TextForLog =  Console.ReadLine();
-
-            while(TextForLog != "Y" || TextForLog != "N")
+            if (TextForLog == "Y")
             {
-                if (TextForLog == "Y")
-                {
-                    Console.WriteLine($" {vsEngine.TimeEmulation(true)}");
-                    break;
-                }
-                else if (TextForLog == "N")
-                {
-                    break;
-                }
-            
+                Console.WriteLine($" {vsEngine.TimeEmulation(true)}");
             }
+            else
+            {
+                Console.WriteLine($"Выражение {TextForLog} <> Y");
+            }
+
         }
     }
 }
+
 
 /*
 
