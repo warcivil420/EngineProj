@@ -49,7 +49,7 @@ namespace EngineSimulation  // класс наследник со стандар
 
         protected double NewEngineTemperature()       // возвращаем новую температуру
         {
-            return  Km * Hm + speed * speed * Hv + C * (Tsr - Ten);
+            return Ten +  Km * Hm + speed * speed * Hv + C * (Tsr - Ten);
         }
         protected double NewAcceleration() // возвращаем новое ускорение
         {
@@ -60,6 +60,22 @@ namespace EngineSimulation  // класс наследник со стандар
             return speed + a;
         }
 
+        protected void ReturnNewCoordinateOfSpeed()
+        {
+            if (speed <= M_V[1, 1])                    // если скорость стала выше определенной точки. то меняем характеристику m на следующую точку
+                Km = M_V[0, 0];
+            if (speed <= M_V[1, 2] && speed > M_V[1, 1])
+                Km = M_V[0, 1];
+            if (speed <= M_V[1, 3] && speed > M_V[1, 2])
+                Km = M_V[0, 2];
+            if (speed <= M_V[1, 4] && speed > M_V[1, 3])
+                Km = M_V[0, 3];
+            if (speed <= M_V[1, 5] && speed > M_V[1, 4])
+                Km = M_V[0, 4];
+            if (speed >= M_V[1, 5])
+                Km = M_V[0, 5];
         }
+
+    }
 
     }
