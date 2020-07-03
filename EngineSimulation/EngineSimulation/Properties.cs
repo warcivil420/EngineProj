@@ -34,8 +34,8 @@ namespace EngineSimulation  // класс наследник со стандар
                 " Hv =" + Hv +
                 " C = " + C +
                 " I = " + I +
-                "Tper" + Tper +
-                "Tsr" + Tsr
+                " Tper = " + Tper +
+                " Tsr = " + Tsr
                 );
         }
 

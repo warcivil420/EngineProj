@@ -5,20 +5,22 @@ namespace EngineSimulation
     class ConsoleClass
     {
         public static void Main(string[] args)
-        {
-
+        { 
             String TextForLog;
 
             Console.WriteLine("Введите температуру среды");
 
-
-
             InternalComEngine vsEngine = new InternalComEngine();
+            vsEngine.GetInformationOfEngine();
 
-
-            if (vsEngine.TimeEmulation() == -1) Console.WriteLine("Перегрева не произошло");
-
-            else Console.WriteLine($" Количество Секунд {vsEngine.TimeEmulation()}");
+            if (vsEngine.TimeEmulation() == -1)
+            {
+                Console.WriteLine("Перегрева не произошло");
+            }
+            else
+            {
+                Console.WriteLine($" Количество секунд до перегрева = {vsEngine.TimeEmulation()}");
+            }
 
             Console.WriteLine("Вывести Подробный отчет Y/N");
             TextForLog =  Console.ReadLine();
@@ -30,10 +32,12 @@ namespace EngineSimulation
                     Console.WriteLine($" {vsEngine.TimeEmulation(true)}");
                     break;
                 }
-                else if (TextForLog == "N") break;
+                else if (TextForLog == "N")
+                {
+                    break;
+                }
+            
             }
-
-
         }
     }
 }

@@ -3,3 +3,4 @@
 /home/andrew/Projects/EngineSimulation/EngineSimulation/obj/x86/Debug/EngineSimulation.csproj.CoreCompileInputs.cache
 /home/andrew/Projects/EngineSimulation/EngineSimulation/obj/x86/Debug/EngineSimulation.exe
 /home/andrew/Projects/EngineSimulation/EngineSimulation/obj/x86/Debug/EngineSimulation.pdb
+/home/andrew/Projects/EngineSimulation/EngineSimulation/obj/x86/Debug/EngineSimulation.csprojAssemblyReference.cache
