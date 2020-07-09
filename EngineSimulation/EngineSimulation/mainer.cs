@@ -7,12 +7,11 @@ namespace EngineSimulation
         public static void Main()
         { 
             String TextForLog;
-
-            Console.WriteLine("Введите температуру среды");
-
+  
+            Console.Write("Введите температуру среды / Tsr = ");
             InternalComEngine vsEngine = new InternalComEngine();
             vsEngine.GetInformationOfEngine();
-
+       
             if (vsEngine.TimeEmulation() == -1)
             {
                 Console.WriteLine("Перегрева не произошло");
@@ -46,4 +45,6 @@ a - ускорение
 speed - скорость оборотов
 Hm - Kоэффициент зависимости скорости нагрева от крутящего момента
 Hv - Коэффициент зависимости скорости нагрева отскорости вращения коленвала
+H_V - наша кусочно-линейная функция
+
  */

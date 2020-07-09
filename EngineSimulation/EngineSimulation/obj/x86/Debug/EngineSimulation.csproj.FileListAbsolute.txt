@@ -10,3 +10,8 @@
 /home/andrew/Desktop/EngineProj-master/EngineSimulation/EngineSimulation/obj/x86/Debug/EngineSimulation.csproj.CoreCompileInputs.cache
 /home/andrew/Desktop/EngineProj-master/EngineSimulation/EngineSimulation/obj/x86/Debug/EngineSimulation.exe
 /home/andrew/Desktop/EngineProj-master/EngineSimulation/EngineSimulation/obj/x86/Debug/EngineSimulation.pdb
+/home/andrew/Desktop/EngineProj/EngineSimulation/EngineSimulation/bin/Debug/EngineSimulation.exe
+/home/andrew/Desktop/EngineProj/EngineSimulation/EngineSimulation/bin/Debug/EngineSimulation.pdb
+/home/andrew/Desktop/EngineProj/EngineSimulation/EngineSimulation/obj/x86/Debug/EngineSimulation.csproj.CoreCompileInputs.cache
+/home/andrew/Desktop/EngineProj/EngineSimulation/EngineSimulation/obj/x86/Debug/EngineSimulation.exe
+/home/andrew/Desktop/EngineProj/EngineSimulation/EngineSimulation/obj/x86/Debug/EngineSimulation.pdb

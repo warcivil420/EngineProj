@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{802FDAE2-F0D3-431D-AD0A-9AB561CE819F}|Default">
   <MonoDevelop.Ide.ItemProperties.EngineSimulation PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EngineSimulation/mainer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EngineSimulation/InternalEngine.cs">
     <Files>
-      <File FileName="EngineSimulation/mainer.cs" Line="38" Column="2" />
-      <File FileName="EngineSimulation/InternalEngine.cs" Line="25" Column="1" />
-      <File FileName="EngineSimulation/Properties.cs" Line="38" Column="19" />
+      <File FileName="EngineSimulation/mainer.cs" Line="40" Column="1" />
+      <File FileName="EngineSimulation/InternalEngine.cs" Line="36" Column="28" />
+      <File FileName="EngineSimulation/Properties.cs" Line="60" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EngineSimulation" expanded="True">
             <Node name="EngineSimulation" expanded="True">
-              <Node name="mainer.cs" selected="True" />
+              <Node name="InternalEngine.cs" selected="True" />
             </Node>
           </Node>
         </State>
